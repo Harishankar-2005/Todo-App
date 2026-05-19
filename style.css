@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgba(0, 0, 0, 0.753) ;
+  font-family: 'DM Sans', sans-serif;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}  
+
+.page{
+  text-align: center;
+  border: .8rem groove rgb(197, 176, 138);
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(73, 137, 158);
+  box-shadow: 10px 15px 5px rgb(29, 28, 28);
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 150px 120px 100px;
+  column-gap: 3rem;
+  row-gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+.input-task{
+  padding: 10px 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(197, 188, 188);
+}
+.input-date{
+  padding: 10px 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(197, 188, 188);
+}
+.addBtn{
+  background-color: rgb(86, 236, 40);
+  color: aliceblue;
+  box-shadow: 5px 5px 5px rgb(197, 188, 188);
+  cursor: pointer; 
+}
+.deleteBtn{
+  padding: 10px 5px;
+  border-radius: 10px;
+  background-color: red;
+  box-shadow: 5px 5px 5px rgb(197, 188, 188);
+} 
+
+.name{
+  display: flex;
+  font-size: 1.2rem;
+  border: .1rem solid;
+  cursor: context-menu;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 5px 5px 5px rgb(197, 188, 188);
+  justify-content: center;
+  align-items: center;
+  background: plum;
+}
+.date{
+  display: flex;
+  font-size: 1.2rem;
+  border: .1rem solid;
+  cursor: context-menu;
+  border-radius: 10px;
+  width: 120px;
+  box-shadow: 5px 5px 5px rgb(197, 188, 188);
+  justify-content: center;
+  align-items: center;
+  background: pink;
+}
