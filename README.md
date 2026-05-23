@@ -35,4 +35,4 @@ style.css     # Styling and layout
 - Mark tasks as complete / incomplete
 
 ## Live Demo
-play now: [https://harishankar-2005.github.io/travelco-website/]
+play now: [https://harishankar-2005.github.io/Todo-App/]
