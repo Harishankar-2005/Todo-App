@@ -1,13 +1,4 @@
-let todoList = [
-//   {
-//   item :`JavaScript`,
-//   dueDate :`13/10/2005`
-// },
-//   {item:`Python`,
-//     dueDate :`13/10/2005`
-//   }
-];
-
+let todoList = [];
 
 let taskStr=localStorage.getItem(`task`)
   if (taskStr!==null){
@@ -39,9 +30,9 @@ function addElement() {
 
 function displayTask() {
   let newHTML = ``;
-  todoHTML = document.querySelector(`.todo-container`)
+  let todoHTML = document.querySelector(`.todo-container`)
   todoHTML.innerHTML = ``;
-  for (i=0;i<todoList.length;i++) {
+  for (let i=0;i<todoList.length;i++) {
     let {item,dueDate} = todoList[i];
     newHTML = `
     <span class="name">${item}</span>
